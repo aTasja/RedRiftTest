@@ -9,7 +9,7 @@ namespace UI
         public void OnDrop(PointerEventData eventData)
         {
             if (eventData.pointerDrag != null) {
-                eventData.pointerDrag.GetComponent<DragAndDrop>().IsOnTable = true;
+                eventData.pointerDrag.GetComponent<CardLogic>().IsOnTable = true;
             }
         }
     }

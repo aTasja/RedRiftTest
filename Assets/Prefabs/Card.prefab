@@ -367,8 +367,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4535bfd6be0bc64ea143a038cca5efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsHPChanging: 0
+  IsOnTable: 0
+  PositionInHand: {x: 0, y: 0, z: 0}
   _cardPresenter: {fileID: 7383172510547135342}
-  _dragAndDrop: {fileID: -2784646158982210032}
 --- !u!114 &7383172510547135342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,6 +390,7 @@ MonoBehaviour:
     _attackText: {fileID: 6780411460004635965}
     _hpText: {fileID: 2979007270163043412}
   _counter: {fileID: 2645255001837536546}
+  _logic: {fileID: 2002690949516356285}
 --- !u!114 &1907259043479710223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,7 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a403ef4d93074d95b69d8d515df161fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsOnTable: 0
+  _logic: {fileID: 2002690949516356285}
   _glow: {fileID: 364381562090554894}
 --- !u!225 &-5378978491541956213
 CanvasGroup:
